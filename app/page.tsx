@@ -4,6 +4,7 @@ import { Float, Line, OrbitControls, Sphere } from "@react-three/drei";
 import { motion, useScroll, useSpring } from "motion/react";
 import { useMemo, useRef, useState } from "react";
 import type { Group } from "three";
+import Image from "next/image";
 const experience = [
   {
     years: "2023 — 2025",
@@ -161,6 +162,15 @@ function HeroScene() {
           autoRotateSpeed={0.25}
         />
       </Canvas>
+      <div className="portraitCore">
+        <Image
+          src="/jommel-lingad.png"
+          alt="Portrait of Jommel Joseph R. Lingad"
+          fill
+          priority
+          sizes="(max-width: 560px) 150px, 190px"
+        />
+      </div>
       <div className="sceneLabel">
         <span>INFRASTRUCTURE CORE</span>
         <b>● LIVE</b>
