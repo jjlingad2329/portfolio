@@ -222,7 +222,7 @@ export default function Home() {
       <motion.div className="progress" style={{ scaleX }} />
       <nav className="nav" aria-label="Primary navigation">
         <a className="brand" href="#top">
-          <span>JL</span> Jommel Lingad
+          <span>JL</span> Jommel Lingad - Your Next VA
         </a>
         <div className="navlinks">
           <a href="#expertise">Expertise</a>
